@@ -1,12 +1,13 @@
+import Form from "./components/Form"
+
+
 
 function App() {
 
   return (
-    <>
-      <form>
-        <input />
-      </form>
-    </>
+    <div className="flex flex-col h-screen bg-zinc-700 justify-center items-center">
+      <Form/>
+    </div>
   )
 }
 
